@@ -1,0 +1,17 @@
+name = "czech-price-hunter-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+DEFAULT_REGION = "Zlínský kraj"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "czech-price-hunter"
+database_id = "PUT_YOUR_D1_DATABASE_ID_HERE"
+migrations_dir = "migrations"
+
+[triggers]
+# Cloudflare cron expressions are UTC. 05:00 UTC is 06:00 in Czech winter time
+# and 07:00 in Czech summer time. Adjust if a fixed local hour is required.
+crons = ["0 5 * * 3", "0 5 * * 5"]
