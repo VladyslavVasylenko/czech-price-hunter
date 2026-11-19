@@ -1,1 +1,22 @@
 
+{
+  "flyer": {
+    "store": "Lidl",
+    "region": "Zlínský kraj",
+    "valid_from": "2026-11-19",
+    "valid_to": "2026-11-25",
+    "source_url": "https://www.lidl.cz/"
+  },
+  "offers": [
+    {
+      "name": "Mléko polotučné 1 l",
+      "brand": "DEMO - fiktivní příklad",
+      "price": 17.9,
+      "old_price": 22.9,
+      "unit": "1 l",
+      "valid_from": "2026-11-19",
+      "valid_to": "2026-11-25",
+      "loyalty_required": false
+    }
+  ]
+}
